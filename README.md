@@ -1,7 +1,7 @@
 
 # Improving generalization via style transfer-based data augmentation: Novel regularization method
 
-![Generated skin lesions: example.](https://raw.githubusercontent.com/AgaMiko/ST-DA/master/Skin-lesions-examples.jpg)
+![Generated skin lesions: example.](https://github.com/AgaMiko/ST-DA/blob/master/Skin-lesions-examples.jpg)
 
 ## Introduction
 Currently, deep learning (DL) algorithms are considered as state-of-the-art in many classification tasks,
