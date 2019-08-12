@@ -22,11 +22,15 @@ The main contributions of this paper are:
 
 ## ST-DA
 xxxx
+### How-to
 
-## Database
-### Database
-The original dataset consisted of 1088 malignant skin lesions and 12433 benign images. Taking full advantage of the neural style transfer approach, 248 489 synthesized images were generated. In particular, only 418 malignant lesions were used from the original dataset to create the database.  Then, with the use of these data the performance of four types of popular and commonly used deep neural network architectures was evaluated. The networks were trained on 54030 synthesized images, validated on 1976 real images, and tested on 200 images per each of five testing folds (k-fold cross-validation).  
-The following regularization techniques were applied to each tested network: traditional data augmentation (rotation, zoom, shear, reflection), dropout, and early stopping. In order to make comparison reliable, all the experiments were performed with the same hyperparameters, regularization techniques, and architectures. To evaluate the proposed approach, it was compared with other networks in terms of performance, repeatability, and the amount of new information carried in the generated dataset. 
+### Details
+The result and details of the method can be found in the original paper here: [xxx](xxx)
+## Database 
+### Download
+We generated 248 489 out of of 1088 malignant skin lesions and 12433 benign images. In particular, only 418 malignant lesions were used from the original dataset to create the database.  
+Database can be download [here](xxx)
+#### If you use this database please star the repository and cite the following paper:
 
 ### Source of original skin lesions
 The used database was the publicly available dataset of Dermatoscopic images of the most common classes of skin lesions from The International Skin Imaging Collaboration: Melanoma Project Archive (Codella et al., 2018; Tschandl, Rosendahl, & Kittler, 2018). 
@@ -39,6 +43,21 @@ For pseudo-labelling, VGG16 trained on a skin lesion dataset was used (full desc
 Moreover, VGG8 and VGG11 implementations as described in (Grochowski, Kwasigroch, & Mikolajczyk, 2019) were used, along with VGG16 and DenseNet121 from Keras 2.0 [xxx]. The following regularization techniques were applied to each tested network: traditional data augmentation (rotation, zoom, shear, reflection), dropout, and early stopping. All the experiments were performed with the same hyperparameters, regularization techniques, and architectures, in order to make comparison reliable.
 
 
-### If you use this database please star the repository and cite the following paper:
-
 **xxxx
+
+## Sources
+
+The database was generated using following sources:
+
+* *Image generation:*
+  * **Style transfer original paper:** xxxx
+  * **Style transfer implementation:** [SmoothGrad](https://arxiv.org/abs/1706.03825) averages the gradient over number of inputs with added noise.
+* *Explaiability method:*
+  * **Deep Taylor decomposition:** [DeepTaylor](https://www.sciencedirect.com/science/article/pii/S0031320316303582?via%3Dihub) computes for each neuron a rootpoint, that is close to the input, but which's output value is 0, and uses this difference to estimate the attribution of each neuron recursively.
+   * **Repository:** [iNNvestigate](https://github.com/albermax/innvestigate) library contains implementations for the
+   SmoothGrad, DeConvNet, Guided BackProp,  PatternNet, DeepTaylor, PatternAttribution, IntegratedGradients and DeepLIFT.  
+* *Source database:*
+  * **ISIC Archive:** The [ISIC Archive](https://www.isic-archive.com) contains over 23k images of skin lesions, labeled as 'benign' or 'malignant'.
+  * **ISIC Archive Downloader:** A [script](https://github.com/GalAvineri/ISIC-Archive-Downloader) to download the ISIC Archive of lesion images 
+* *Other:*
+  * **VGG8** [Selected ....](link) applies a ReLU in the gradient computation instead of the gradient of a ReLU.
