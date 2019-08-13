@@ -21,18 +21,17 @@ The main contributions of this paper are:
 ## ST-DA
 xxxx
 ### How-to
-
+Short and friendly how-to tutorial is available [here](xxx)
 
 ### Details
 The result and details of the method can be found in the original paper here: [xxx](xxx)
 ## Database 
 ### Download
 The total databse size is 248 489 unalabeled images (224x224 px). 
-Database can be download [here](xxx)
+* Full-size examples can be found [here](xxx)
+* Database can be download [here](xxx)
 #### If you use this database please star the repository and cite the following paper:
 <em> ["Improving generalization via style transfer-based data augmentation: Novel regularization method"](xxxx)</em>, by [Agnieszka Mikołajczyk](https://scholar.google.pl/citations?user=VFMjpTsAAAAJ&hl=en) , [Michał Grochowski](https://scholar.google.pl/citations?user=UTA55L8AAAAJ&hl=en), [Arkadiusz Kwasigroch](https://scholar.google.pl/citations?user=Hw7DV4QAAAAJ&hl=en)
-
-**xxxx
 
 ## Sources
 
@@ -41,12 +40,15 @@ The database was generated using following sources:
 * *Image generation:*
   * **Style transfer original paper:** [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) is a first paper that presented <em>Neural Style Transfer</em>. 
   * **Style transfer implementation:** Implementation of [Neural Style Transfer & Neural Doodles](https://github.com/titu1994/Neural-Style-Transfer) from the paper <em>A Neural Algorithm of Artistic Style</em> in Keras 2.0+
-* *Explaiability method:*
+* *Explainability method:*
   * **Deep Taylor decomposition:** [DeepTaylor](https://www.sciencedirect.com/science/article/pii/S0031320316303582?via%3Dihub) computes for each neuron a rootpoint, that is close to the input, but which's output value is 0, and uses this difference to estimate the attribution of each neuron recursively.
    * **Repository:** [iNNvestigate](https://github.com/albermax/innvestigate) library contains implementations for the
    SmoothGrad, DeConvNet, Guided BackProp,  PatternNet, DeepTaylor, PatternAttribution, IntegratedGradients and DeepLIFT.  
 * *Source database:*
   * **ISIC Archive:** The [ISIC Archive](https://www.isic-archive.com) contains over 23k images of skin lesions, labeled as 'benign' or 'malignant'. Those images were used to generate our database.
   * **ISIC Archive Downloader:** A [script](https://github.com/GalAvineri/ISIC-Archive-Downloader) to download the ISIC Archive of lesion images 
+* *Previous papers about data augmentation:*
+  * [Data augmentation for improving deep learning in image classification problem, 2018](https://ieeexplore.ieee.org/abstract/document/8388338)
+  * [Style transfer-based image synthesis as an efficient regularization technique in deep learning, 2019](https://arxiv.org/abs/1905.10974)
 * *Other:*
   * **VGG8** [Selected Technical Issues of Deep Neural Networks for Image Classification Purposes](http://www.czasopisma.pan.pl/Content/112085/PDF/21_363-376_00946_Bpast.No.67-2_28.04.19_K3.pdf) prestents the details of VGG8 architecture.
