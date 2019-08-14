@@ -29,7 +29,7 @@ The result and details of the method can be found in the original paper here: [x
 ### Download
 The total databse size is 248 489 unalabeled images (224x224 px). 
 * Full-size examples can be found [here](xxx)
-* Database can be download [here](xxx)
+* Database can be download [soon here](xxx)
 #### If you use this database please star the repository and cite the following paper:
 <em> ["Improving generalization via style transfer-based data augmentation: Novel regularization method"](xxxx)</em>, by [Agnieszka Mikołajczyk](https://scholar.google.pl/citations?user=VFMjpTsAAAAJ&hl=en) , [Michał Grochowski](https://scholar.google.pl/citations?user=UTA55L8AAAAJ&hl=en), [Arkadiusz Kwasigroch](https://scholar.google.pl/citations?user=Hw7DV4QAAAAJ&hl=en)
 
