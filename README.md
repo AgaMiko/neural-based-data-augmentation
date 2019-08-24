@@ -19,7 +19,6 @@ The main contributions of this paper are:
 
 
 ## ST-DA
-xxxx
 ### How-to
 Short and friendly how-to tutorial will be soon available [here](xxx)
 
