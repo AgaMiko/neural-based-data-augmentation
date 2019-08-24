@@ -21,16 +21,20 @@ The main contributions of this paper are:
 ## ST-DA
 xxxx
 ### How-to
-Short and friendly how-to tutorial is available [here](xxx)
+Short and friendly how-to tutorial will be soon available [here](xxx)
 
 ### Details
-The result and details of the method can be found in the original paper here: [xxx](xxx)
+The result and details of the method will be able to be find soon in the original paper here: [xxx](xxx)
+You can check instead our previous papers about data augmentation:
+  * [Data augmentation for improving deep learning in image classification problem, 2018](https://ieeexplore.ieee.org/abstract/document/8388338)
+  * [Style transfer-based image synthesis as an efficient regularization technique in deep learning, 2019](https://arxiv.org/abs/1905.10974)
+
 ## Database 
 ### Download
 The total databse size is 248 489 unalabeled images (224x224 px). 
-* Full-size examples can be found [here](xxx)
-* Database can be download [soon here](xxx)
-#### If you use this database please star the repository and cite the following paper:
+* Full-size examples can be found [here](xxx) (soon)
+* Database can be download [soon here](xxx) (soon)
+#### If you use this database please star the repository and cite the following paper (soon):
 <em> ["Improving generalization via style transfer-based data augmentation: Novel regularization method"](xxxx)</em>, by [Agnieszka Mikołajczyk](https://scholar.google.pl/citations?user=VFMjpTsAAAAJ&hl=en) , [Michał Grochowski](https://scholar.google.pl/citations?user=UTA55L8AAAAJ&hl=en), [Arkadiusz Kwasigroch](https://scholar.google.pl/citations?user=Hw7DV4QAAAAJ&hl=en)
 
 ## Sources
