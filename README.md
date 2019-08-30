@@ -53,5 +53,7 @@ The database was generated using following sources:
 * *Previous papers about data augmentation:*
   * [Data augmentation for improving deep learning in image classification problem, 2018](https://ieeexplore.ieee.org/abstract/document/8388338)
   * [Style transfer-based image synthesis as an efficient regularization technique in deep learning, 2019](https://arxiv.org/abs/1905.10974)
+* *Similar projects:*
+ * **Generating skin lesions with GANs** - [Beating Melanoma with Deep Learning: letting the data speak](https://github.com/devansh20la/Beating-Melanoma/tree/master/Generator)
 * *Other:*
   * **VGG8** [Selected Technical Issues of Deep Neural Networks for Image Classification Purposes](http://www.czasopisma.pan.pl/Content/112085/PDF/21_363-376_00946_Bpast.No.67-2_28.04.19_K3.pdf) prestents the details of VGG8 architecture.
